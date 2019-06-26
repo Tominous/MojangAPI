@@ -48,7 +48,7 @@ if ($query) {
     echo 'Server is offline.';
 }
 // Uncomment the line below to see what's returned
-// var_dump($query);
+ var_dump($query);
 
 $ping = MojangAPI::ping('play.onecraft.fr', 25565);
 if ($ping) {
@@ -59,7 +59,7 @@ if ($ping) {
     echo 'Server is offline.';
 }
 // Uncomment the line below to see what's returned
-// var_dump($ping);
+ var_dump($ping);
 
 
 /* Textures / Skins
